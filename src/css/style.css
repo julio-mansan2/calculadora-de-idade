@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 5% 20%;
+    min-height: 100vh;
+    background: var(--light-grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
+    justify-content: center;
+    padding: 2.5rem;
+    position: relative;
+    border-radius: 0.625rem 0.625rem 6.25rem 0.625rem;
+}
+
+.container form {
+    display: flex;
+    margin-bottom: 1.25rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+
+label {
+    text-transform: uppercase;
+    color: var(--smokey-grey);
+    font-weight: 400;
+}
+
+input {
+    padding: 0.9375rem;
+    font-size: 1.1rem;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+}
+
+.submit {
+    position: absolute;
+    right: 1.875rem;
+    top: 25%;
+    padding: 0.625rem;
+    border-radius: 50%;
+    background: var(--purple);
+    transition: 0.3s;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+section:first-child {
+    margin-bottom: 1.875rem;
+}
+
+h1 {
+    font-size: 5rem;
+    font-style: italic;
+}
+
+h1 span {
+    color: var(--purple);
+}
+
+.error {
+    color: var(--red);
+    font-weight: 400;
+    font-style: italic;
+}
