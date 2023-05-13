@@ -26,9 +26,14 @@
         margin-bottom: 2.5rem;
     }
 
+    .error {
+        margin-bottom: 20px;
+    }
+
     .submit {
-        right: 40%;
+        right: 37%;
         top: 35%;
+        padding: 1.2rem;
     }
 
     h1 {
