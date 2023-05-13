@@ -22,7 +22,7 @@ body {
 
 .container form {
     display: flex;
-    margin-bottom: 1.25rem;
+    margin-bottom: 2.5rem;
 }
 
 .info {
@@ -43,13 +43,14 @@ input {
     width: 70%;
     border-radius: 5px;
     border: none;
+    font-weight: 800;
 }
 
 .submit {
     position: absolute;
     right: 1.875rem;
-    top: 25%;
-    padding: 0.625rem;
+    top: 24%;
+    padding: 1.3rem;
     border-radius: 50%;
     background: var(--purple);
     transition: 0.3s;
@@ -76,4 +77,9 @@ h1 span {
     color: var(--red);
     font-weight: 400;
     font-style: italic;
+}
+
+hr {
+    height: 1px;
+    border: 1px solid var(--light-grey);
 }
