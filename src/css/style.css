@@ -58,6 +58,7 @@ input {
 
 .submit:hover {
     cursor: pointer;
+    background: var(--smokey-grey);
 }
 
 section:first-child {
